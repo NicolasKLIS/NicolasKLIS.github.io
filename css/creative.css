@@ -4,10 +4,14 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-.fr { display:none; } /* hide all elements with a language class */
-.en {display: block;}
-.fr:lang(fr) { display:block; }
-.en:lang(fr){ display:none; }
+.fr{display:none;} /* hide all elements with a language class */
+.en{display: block;}
+:lang(fr) .fr{
+  dipslay: block
+}
+:lang(fr) .en{
+  dipslay: none
+}
 
 html,
 body {
