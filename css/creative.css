@@ -4,6 +4,9 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.en, .fr { display:none; } /* hide all elements with a language class */
+.en:lang(en), .de:lang(fr) { display:block; }
+
 html,
 body {
     width: 100%;
