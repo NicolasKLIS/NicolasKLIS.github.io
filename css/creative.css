@@ -217,7 +217,8 @@ header .header-content .header-content-inner p {
   margin-bottom: 150px;
   font-size: 18px;
   font-weight: bold;
-  color: black;
+  border-color: #000000;
+  color: white;
 }
 
 @media(min-width:768px) {
