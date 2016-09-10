@@ -42,7 +42,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #2ea9e0;
 }
 
 h1,
@@ -103,7 +103,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color: #2ea9e0;
 }
 
 .navbar-default .nav > li>a,
@@ -167,7 +167,7 @@ aside {
 
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #2ea9e0;
   }
 
   .navbar-default.affix .nav > li>a,
