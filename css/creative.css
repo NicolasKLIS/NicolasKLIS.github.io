@@ -219,6 +219,7 @@ header .header-content .header-content-inner p {
   font-size: 18px;
   font-weight: bold;
   color: white;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 }
 
 @media(min-width:768px) {
