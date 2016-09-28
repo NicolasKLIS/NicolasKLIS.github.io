@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-.fr{display:none;} /* hide all elements with a language class */
+.fr{display:none;} /* hide all elementsheader-contentheader-content with a language class */
 .en{display: block;}
 :lang(fr) .fr{
   dipslay: block
@@ -197,13 +197,13 @@ header {
 
 header .header-content {
   position: relative;
-  width: 70%;
+  width: 100%;
   padding: 100px 15px;
   text-align: center;
 }
 
 header .header-content .header-content-inner h1 {
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 0;
   text-transform: uppercase;
   font-weight: 700;
